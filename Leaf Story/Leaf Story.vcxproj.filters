@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Base\Draw">
+      <UniqueIdentifier>{1bebce62-7015-4f8c-b62b-0cc1be3a68ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\FileIO">
+      <UniqueIdentifier>{865a4d94-42ca-4c6d-8339-aaf0c448af26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input">
+      <UniqueIdentifier>{f8b80d49-c5e7-4cd0-8706-fa3ba5769522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Main">
+      <UniqueIdentifier>{4bc7b973-adc6-4bd7-9f47-51710af04842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Scene\Title_Scene">
+      <UniqueIdentifier>{14a69626-6ed1-4d96-bd09-844169121e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Explain_Scene">
+      <UniqueIdentifier>{6eb527d5-dd6f-4720-a1cb-315eac20f9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Choice_Scene">
+      <UniqueIdentifier>{abe63732-a7a8-4482-bd11-c0f1d2b1ec99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Choice_Scene\char nickname">
+      <UniqueIdentifier>{173c0cf9-1a24-42c5-9fbe-bc1efd0afb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Continue_Scene">
+      <UniqueIdentifier>{963e575e-4bd3-4f81-938d-06f26f1e83b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\RemoveBar">
+      <UniqueIdentifier>{08855863-4de5-4aa0-92ea-5c9554b81888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Map_Render">
+      <UniqueIdentifier>{74ffd82b-07a9-49fa-8956-c8917a560dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Character_Render">
+      <UniqueIdentifier>{897bcf2f-b261-4b9b-9475-f794b8d39c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Monster_Render">
+      <UniqueIdentifier>{9ef7a889-4f8b-4bfb-8258-e0e5b16a933d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Skill_Render">
+      <UniqueIdentifier>{290e9c67-db28-4b44-892c-0808c00dd1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Sound">
+      <UniqueIdentifier>{2a334b45-f96f-4527-bf85-40f43fb04588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Menu_Render">
+      <UniqueIdentifier>{b82f91c2-41da-4a5a-b784-f00a93a5ecc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Monster_Render\맵1">
+      <UniqueIdentifier>{06097885-e706-4e16-bc77-8b1431edb2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Monster_Render\맵2">
+      <UniqueIdentifier>{6258787d-9f4a-4989-9a90-ec9b76a1cc71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Map_Render\맵1">
+      <UniqueIdentifier>{41390a38-8705-4d3a-be02-f55a0ef6a1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Map_Render\맵2">
+      <UniqueIdentifier>{317e0731-931c-4482-90a7-81914d22b7bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Base\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>Base\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Base\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Title_Scene.cpp">
+      <Filter>Scene\Title_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Explain_Scene.cpp">
+      <Filter>Scene\Explain_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Choice_Scene.cpp">
+      <Filter>Scene\Choice_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Nickname.cpp">
+      <Filter>Scene\Choice_Scene\char nickname</Filter>
+    </ClCompile>
+    <ClCompile Include="Continue_Scene.cpp">
+      <Filter>Scene\Continue_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveBar.cpp">
+      <Filter>Base\RemoveBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_Render.cpp">
+      <Filter>Scene\Character_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Nomal_AttackM.cpp">
+      <Filter>Scene\Skill_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BE_GI.cpp">
+      <Filter>Scene\Skill_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Scene\Menu_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade.cpp">
+      <Filter>Scene\Menu_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>Scene\Menu_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_ICE.cpp">
+      <Filter>Scene\Monster_Render\맵1</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Donut.cpp">
+      <Filter>Scene\Monster_Render\맵1</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_munuh.cpp">
+      <Filter>Scene\Monster_Render\맵1</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_slime.cpp">
+      <Filter>Scene\Monster_Render\맵1</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Facebook.cpp">
+      <Filter>Scene\Monster_Render\맵2</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Ston.cpp">
+      <Filter>Scene\Monster_Render\맵2</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_1-1.cpp">
+      <Filter>Scene\Map_Render\맵1</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_1-2.cpp">
+      <Filter>Scene\Map_Render\맵1</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_1-3.cpp">
+      <Filter>Scene\Map_Render\맵1</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_1-boss.cpp">
+      <Filter>Scene\Map_Render\맵1</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_2-1.cpp">
+      <Filter>Scene\Map_Render\맵2</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_2-2.cpp">
+      <Filter>Scene\Map_Render\맵2</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_fish.cpp">
+      <Filter>Scene\Monster_Render\맵2</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_2-3.cpp">
+      <Filter>Scene\Map_Render\맵2</Filter>
+    </ClCompile>
+    <ClCompile Include="Last_boss.cpp">
+      <Filter>Scene\Map_Render\맵2</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Lboss1.cpp">
+      <Filter>Scene\Monster_Render\맵2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Draw.h">
+      <Filter>Base\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>Base\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title_Scene.h">
+      <Filter>Scene\Title_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Explain_Scene.h">
+      <Filter>Scene\Explain_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Choice_Scene.h">
+      <Filter>Scene\Choice_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Nickname.h">
+      <Filter>Scene\Choice_Scene\char nickname</Filter>
+    </ClInclude>
+    <ClInclude Include="Continue_Scene.h">
+      <Filter>Scene\Continue_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveBar.h">
+      <Filter>Base\RemoveBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Map_Render.h">
+      <Filter>Scene\Map_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Character_Render.h">
+      <Filter>Scene\Character_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Render.h">
+      <Filter>Scene\Monster_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill_Render.h">
+      <Filter>Scene\Skill_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>Scene\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_memoryinfo.h">
+      <Filter>Scene\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>Scene\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>Scene\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>Scene\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>Scene\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.hpp">
+      <Filter>Scene\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Scene\Menu_Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

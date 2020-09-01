@@ -1,0 +1,130 @@
+﻿Build started 2016-12-16 오전 8:54:33.
+     1>Project "D:\프로젝트 기초\프젝 기말과제\Leaf Story\Leaf Story\Leaf Story.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt BE_GI.cpp Character_Render.cpp Choice_Scene.cpp Continue_Scene.cpp Draw.cpp Explain_Scene.cpp FileIO.cpp Input.cpp Last_boss.cpp main.cpp "Map_1-1.cpp" "Map_1-2.cpp" "Map_1-3.cpp" "Map_1-boss.cpp" "Map_2-1.cpp" "Map_2-2.cpp" "Map_2-3.cpp" Menu.cpp Monster_Donut.cpp Monster_Facebook.cpp Monster_fish.cpp Monster_ICE.cpp Monster_Lboss1.cpp Monster_munuh.cpp Monster_slime.cpp Monster_Ston.cpp Nickname.cpp Nomal_AttackM.cpp RemoveBar.cpp Scene.cpp shop.cpp Title_Scene.cpp Upgrade.cpp
+         Upgrade.cpp
+     1>Upgrade.cpp(143): warning C4804: '<=' : unsafe use of type 'bool' in operation
+     1>Upgrade.cpp(148): warning C4804: '<=' : unsafe use of type 'bool' in operation
+     1>Upgrade.cpp(171): warning C4804: '<=' : unsafe use of type 'bool' in operation
+     1>Upgrade.cpp(183): warning C4804: '<=' : unsafe use of type 'bool' in operation
+         Title_Scene.cpp
+     1>Title_Scene.cpp(16): warning C4305: 'argument' : truncation from 'double' to 'float'
+         shop.cpp
+         Scene.cpp
+         RemoveBar.cpp
+         Nomal_AttackM.cpp
+         Nickname.cpp
+     1>Nickname.cpp(9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         Monster_Ston.cpp
+         Monster_slime.cpp
+         Monster_munuh.cpp
+         Monster_Lboss1.cpp
+         Monster_ICE.cpp
+         Monster_fish.cpp
+         Monster_Facebook.cpp
+         Monster_Donut.cpp
+         Menu.cpp
+     1>Menu.cpp(8): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Map_2-3.cpp
+         Map_2-2.cpp
+         Map_2-1.cpp
+     1>Map_2-1.cpp(10): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Map_1-boss.cpp
+         Generating Code...
+         Compiling...
+         Map_1-3.cpp
+         Map_1-2.cpp
+         Map_1-1.cpp
+         main.cpp
+     1>main.cpp(31): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Last_boss.cpp
+         Input.cpp
+     1>Input.cpp(11): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\conio.h(131) : see declaration of 'getch'
+         FileIO.cpp
+     1>FileIO.cpp(14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>FileIO.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>FileIO.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>FileIO.cpp(30): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>FileIO.cpp(31): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>FileIO.cpp(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>FileIO.cpp(77): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>FileIO.cpp(89): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>FileIO.cpp(101): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>FileIO.cpp(110): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>FileIO.cpp(122): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>FileIO.cpp(127): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>FileIO.cpp(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         Explain_Scene.cpp
+         Draw.cpp
+     1>Draw.cpp(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>Draw.cpp(34): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+         Continue_Scene.cpp
+         Choice_Scene.cpp
+         Character_Render.cpp
+         BE_GI.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\프로젝트 기초\프젝 기말과제\Leaf Story\x64\Debug\Leaf Story.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\프로젝트 기초\프젝 기말과제\Leaf Story\x64\Debug\Leaf Story.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\프로젝트 기초\프젝 기말과제\Leaf Story\x64\Debug\Leaf Story.lib" /MACHINE:X64 x64\Debug\BE_GI.obj
+         x64\Debug\Character_Render.obj
+         x64\Debug\Choice_Scene.obj
+         x64\Debug\Continue_Scene.obj
+         x64\Debug\Draw.obj
+         x64\Debug\Explain_Scene.obj
+         x64\Debug\FileIO.obj
+         x64\Debug\Input.obj
+         x64\Debug\Last_boss.obj
+         x64\Debug\main.obj
+         "x64\Debug\Map_1-1.obj"
+         "x64\Debug\Map_1-2.obj"
+         "x64\Debug\Map_1-3.obj"
+         "x64\Debug\Map_1-boss.obj"
+         "x64\Debug\Map_2-1.obj"
+         "x64\Debug\Map_2-2.obj"
+         "x64\Debug\Map_2-3.obj"
+         x64\Debug\Menu.obj
+         x64\Debug\Monster_Donut.obj
+         x64\Debug\Monster_Facebook.obj
+         x64\Debug\Monster_fish.obj
+         x64\Debug\Monster_ICE.obj
+         x64\Debug\Monster_Lboss1.obj
+         x64\Debug\Monster_munuh.obj
+         x64\Debug\Monster_slime.obj
+         x64\Debug\Monster_Ston.obj
+         x64\Debug\Nickname.obj
+         x64\Debug\Nomal_AttackM.obj
+         x64\Debug\RemoveBar.obj
+         x64\Debug\Scene.obj
+         x64\Debug\shop.obj
+         x64\Debug\Title_Scene.obj
+         x64\Debug\Upgrade.obj
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol FMOD_System_Create referenced in function "enum FMOD_RESULT __cdecl FMOD::System_Create(class FMOD::System * *)" (?System_Create@FMOD@@YA?AW4FMOD_RESULT@@PEAPEAVSystem@1@@Z)
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::release(void)" (?release@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "void __cdecl titlemusic(int,float)" (?titlemusic@@YAXHM@Z)
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::init(int,unsigned int,void *)" (?init@System@FMOD@@QEAA?AW4FMOD_RESULT@@HIPEAX@Z) referenced in function "void __cdecl titlemusic(int,float)" (?titlemusic@@YAXHM@Z)
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::close(void)" (?close@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "void __cdecl titlemusic(int,float)" (?titlemusic@@YAXHM@Z)
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::createSound(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) referenced in function "void __cdecl titlemusic(int,float)" (?titlemusic@@YAXHM@Z)
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::playSound(enum FMOD_CHANNELINDEX,class FMOD::Sound *,bool,class FMOD::Channel * *)" (?playSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PEAVSound@2@_NPEAPEAVChannel@2@@Z) referenced in function "void __cdecl titlemusic(int,float)" (?titlemusic@@YAXHM@Z)
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::Sound::release(void)" (?release@Sound@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "void __cdecl titlemusic(int,float)" (?titlemusic@@YAXHM@Z)
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::Channel::stop(void)" (?stop@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "void __cdecl titlemusic(int,float)" (?titlemusic@@YAXHM@Z)
+     1>Title_Scene.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::Channel::setVolume(float)" (?setVolume@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@M@Z) referenced in function "void __cdecl titlemusic(int,float)" (?titlemusic@@YAXHM@Z)
+     1>D:\프로젝트 기초\프젝 기말과제\Leaf Story\x64\Debug\Leaf Story.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "D:\프로젝트 기초\프젝 기말과제\Leaf Story\Leaf Story\Leaf Story.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:32.81
