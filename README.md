@@ -1,7 +1,7 @@
 # Leaf-Story
 
-#KOR
+# KOR
 asdfasdf
 
-#ENG
+# ENG
 dfasf
