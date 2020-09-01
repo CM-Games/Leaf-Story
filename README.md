@@ -16,5 +16,5 @@
     - FileIO (Storage Data)
     - Draw (rendering)
     
-# Demonstration
+# Demo
  * [![Link]](https://youtu.be/b78hb9ti8Y0)
